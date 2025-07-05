@@ -3,9 +3,9 @@ libdir=@LIBDIR@
 includedir=@INCLUDEDIR@
 
 Name: tree-sitter-YOUR_LANGUAGE_NAME
-Description: YourLanguageName grammar for tree-sitter
+Description: Nginx grammar for tree-sitter
 URL: @URL@
 Version: @VERSION@
 Requires: @REQUIRES@
-Libs: -L${libdir} @ADDITIONAL_LIBS@ -ltree-sitter-YOUR_LANGUAGE_NAME
+Libs: -L${libdir} @ADDITIONAL_LIBS@ -ltree-sitter-nginx
 Cflags: -I${includedir}

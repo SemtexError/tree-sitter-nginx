@@ -1,5 +1,5 @@
-#ifndef TREE_SITTER_YOUR_LANGUAGE_NAME_H_
-#define TREE_SITTER_YOUR_LANGUAGE_NAME_H_
+#ifndef TREE_SITTER_NGINX_H_
+#define TREE_SITTER_NGINX_H_
 
 typedef struct TSLanguage TSLanguage;
 
@@ -7,10 +7,10 @@ typedef struct TSLanguage TSLanguage;
 extern "C" {
 #endif
 
-const TSLanguage *tree_sitter_YOUR_LANGUAGE_NAME(void);
+const TSLanguage *tree_sitter_NGINX(void);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // TREE_SITTER_YOUR_LANGUAGE_NAME_H_
+#endif // TREE_SITTER_NGINX_H_

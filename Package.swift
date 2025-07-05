@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "TreeSitterYourLanguageName",
+    name: "TreeSitterNginx",
     products: [
-        .library(name: "TreeSitterYourLanguageName", targets: ["TreeSitterYourLanguageName"]),
+        .library(name: "TreeSitterNginx", targets: ["TreeSitterNginx"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "TreeSitterYourLanguageName",
+        .target(name: "TreeSitterNginx",
                 path: ".",
                 exclude: [
                     "Cargo.toml",
@@ -35,7 +35,7 @@ let package = Package(
                 ],
                 sources: [
                     "src/parser.c",
-                    // NOTE: if your language has an external scanner, add it here.
+                    "src/scanner.c",
                 ],
                 resources: [
                     .copy("queries")
